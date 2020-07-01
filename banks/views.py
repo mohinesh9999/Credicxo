@@ -5,7 +5,7 @@ import pandas as pd
 import os
 from rest_framework.views import APIView
 d=os.path.dirname(os.getcwd())
-d=os.path.join(d,"app")
+d=os.path.join(d,"Credicxo")
 d=os.path.join(d,"banks")
 os.chdir(d)
 # Create your views here.
